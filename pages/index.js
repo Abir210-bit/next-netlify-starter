@@ -6,50 +6,40 @@ import Footer from '@components/Footer';
 export default function Home() {
   return (
     <div className="container">
-      <Head>
-        <title>MY CV </title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <main style={styles.main}>
+        <Header title="Marghni Abir - Curriculum Vitae" style={styles.header} />
 
-      <main style={mainStyle}>
-        <Header title="Marghni Abir - Curriculum Vitae" style={headerStyle} />
-
-        <section style={sectionStyle}>
-          <h2 style={header2Style}>Personal Information</h2>
-          <p style={infoStyle}>Name: Abir</p>
-          <p style={infoStyle}>Email: marghniabir5@gmail.com</p>
-          <p style={infoStyle}>Tel: 20881568</p>
-          {/* Add more personal information as needed */}
+        <section style={styles.section}>
+          <h2 style={styles.header2}>Personal Information</h2>
+          <p style={styles.info}>Name: Abir</p>
+          <p style={styles.info}>Email: marghniabir5@gmail.com</p>
+          <p style={styles.info}>Tel: 20881568</p>
         </section>
 
-        <section style={sectionStyle}>
-          <h2 style={header2Style}>Education</h2>
-          <p style={infoStyle}>Degree in Computer Science - University Name, Year</p>
-          {/* Add more education details as needed */}
+        <section style={styles.section}>
+          <h2 style={styles.header2}>Education</h2>
+          <p style={styles.info}>Degree in Computer Science - University Name, Year</p>
         </section>
 
-        <section style={sectionStyle}>
-          <h2 style={header2Style}>Work Experience</h2>
-          <p style={infoStyle}>Software Developer - Next Step, 2021</p>
-          <p style={infoStyle}>Software Developer - SIRAT, 2020</p>
-          {/* Add more work experience details as needed */}
+        <section style={styles.section}>
+          <h2 style={styles.header2}>Work Experience</h2>
+          <p style={styles.info}>Software Developer - Next Step, 2021</p>
+          <p style={styles.info}>Software Developer - SIRAT, 2020</p>
         </section>
 
-        <section style={sectionStyle}>
-          <h2 style={header2Style}>Skills</h2>
-          <ul style={listStyle}>
-            <li style={infoStyle}>JavaScript</li>
-            <li style={infoStyle}>React.js</li>
-            <li style={infoStyle}>PHP</li>
-            {/* Add more skills as needed */}
+        <section style={styles.section}>
+          <h2 style={styles.header2}>Skills</h2>
+          <ul style={styles.list}>
+            <li style={styles.info}>JavaScript</li>
+            <li style={styles.info}>React.js</li>
+            <li style={styles.info}>PHP</li>
           </ul>
         </section>
 
-        <section style={sectionStyle}>
-          <h2 style={header2Style}>Languages</h2>
-          <p style={infoStyle}>English - Fluent</p>
-          <p style={infoStyle}>French - Intermediate</p>
-          {/* Add more language details as needed */}
+        <section style={styles.section}>
+          <h2 style={styles.header2}>Languages</h2>
+          <p style={styles.info}>English - Fluent</p>
+          <p style={styles.info}>French - Intermediate</p>
         </section>
       </main>
 
