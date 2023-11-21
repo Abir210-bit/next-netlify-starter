@@ -14,33 +14,23 @@ export default function Home() {
           <p>Name: Abir</p>
           <p>Email: marghniabir5@gmail.com</p>
           <p>Tel: 20881568</p>
-        </section>
 
-        <section>
-          <h2>Education</h2>
+         <h2>Education</h2>
           <p>Degree in Computer Science - University Name, Year</p>
-        </section>
 
-        <section>
-          <h2>Work Experience</h2>
+         <h2>Work Experience</h2>
           <p>Software Developer - Next Step, 2021</p>
           <p>Software Developer - SIRAT, 2020</p>
-        </section>
 
-        <section>
-          <h2>Skills</h2>
+         <h2>Skills</h2>
           <ul>
             <li>JavaScript</li>
             <li>React.js</li>
             <li>PHP</li>
           </ul>
-        </section>
-
-        <section>
-          <h2>Languages</h2>
+       <h2>Languages</h2>
           <p>English - Fluent</p>
           <p>French - Intermediate</p>
-        </section>
       </main>
 
       <Footer />
