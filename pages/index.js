@@ -4,50 +4,52 @@ import Header from '@components/Header';
 import Footer from '@components/Footer';
 
 export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Marghni Abir - Curriculum Vitae 2</title>
-      </Head>
+  return  (
+    <div>
+      <header>
+        <h1>Your Name</h1>
+        <p>Job Title</p>
+      </header>
+      
+      <section>
+        <h2>Contact Information</h2>
+        <p>Email: your.email@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+        {/* Add more contact information as needed */}
+      </section>
 
-      <Header title="Marghni Abir - Curriculum Vitae" />
+      <section>
+        <h2>Summary</h2>
+        <p>
+          A brief summary of your professional background, skills, and goals.
+        </p>
+      </section>
 
-      <main style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <article style={{ textAlign: 'left', maxWidth: '600px', margin: '20px 0' }}>
-          <h2>Personal Information</h2>
-          <p>Name: Abir</p>
-          <p>Email: marghniabir5@gmail.com</p>
-          <p>Tel: 20881568</p>
-        </article>
+      <section>
+        <h2>Education</h2>
+        <p>
+          <strong>University Name</strong> - Degree, Graduation Year
+        </p>
+        {/* Add more education details as needed */}
+      </section>
 
-        <article style={{ textAlign: 'left', maxWidth: '600px', margin: '20px 0' }}>
-          <h2>Education</h2>
-          <p>Degree in Computer Science - University Name, Year</p>
-        </article>
+      <section>
+        <h2>Experience</h2>
+        <p>
+          <strong>Job Title</strong> - Company Name, Duration
+        </p>
+        <p>
+          Description of responsibilities and achievements in this role.
+        </p>
+        {/* Add more experience details as needed */}
+      </section>
 
-        <article style={{ textAlign: 'left', maxWidth: '600px', margin: '20px 0' }}>
-          <h2>Work Experience</h2>
-          <p>Software Developer - Next Step, 2021</p>
-          <p>Software Developer - SIRAT, 2020</p>
-        </article>
+      {/* Add more sections for skills, projects, certifications, etc. as needed */}
 
-        <article style={{ textAlign: 'left', maxWidth: '600px', margin: '20px 0' }}>
-          <h2>Skills</h2>
-          <ul>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>PHP</li>
-          </ul>
-        </article>
-
-        <article style={{ textAlign: 'left', maxWidth: '600px', margin: '20px 0' }}>
-          <h2>Languages</h2>
-          <p>English - Fluent</p>
-          <p>French - Intermediate</p>
-        </article>
-      </main>
-
-      <Footer />
+      <footer>
+        <p>References available upon request</p>
+      </footer>
     </div>
   );
-}
+};
