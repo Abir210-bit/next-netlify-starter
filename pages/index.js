@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Marghni Abir - Curriculum Vitae</title>
+        <title>Marghni Abir - Curriculum Vitae 2</title>
       </Head>
 
       <Header title="Marghni Abir - Curriculum Vitae" />
