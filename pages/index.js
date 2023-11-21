@@ -44,4 +44,10 @@ export default function Home() {
           <h2>Languages</h2>
           <p>English - Fluent</p>
           <p>French - Intermediate</p>
-        </article
+        </article>
+      </main>
+
+      <Footer />
+    </div>
+  );
+}
